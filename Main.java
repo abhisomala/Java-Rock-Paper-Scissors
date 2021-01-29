@@ -2,15 +2,16 @@ import java.util.Scanner;
 
 class Main {
   public static void main(String[] args) {
-    
 		//Initialize the Scanner and print a welcome message
 		Scanner in = new Scanner(System.in);		System.out.println("Welcome to Rock, Paper, Scissors!");
+  
+
 
 		//Use a while(true) loop and only break the loop if the user wants to quit
 		while(true) {
 		
 			//Get the user's move through user input
-			System.out.print("What is your move? Your choices are Rock, Paper, or Scissors. If you want to quit the game, enter quit. ");
+			System.out.print("What is your move? Your choices are rock, paper, or scissors. If you want to quit the game, enter quit. ");
 			String myMove = in.nextLine();
 			
 			//Check if the user wants to quit the game
