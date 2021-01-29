@@ -3,9 +3,13 @@ import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
 		//Initialize the Scanner and print a welcome message
-		Scanner in = new Scanner(System.in);		System.out.println("Welcome to Rock, Paper, Scissors!");
-  
-
+		Scanner in = new Scanner(System.in);		System.out.println("Welcome to Rock, Paper, Scissors! Do you want to play? (yes/no) ");
+  String ans = in.nextLine();
+    if(ans.equals("yes")){
+      System.out.print("Lets Play! ");
+    } else {
+      System.out.print("Good bye");
+    }
 
 		//Use a while(true) loop and only break the loop if the user wants to quit
 		while(true) {
